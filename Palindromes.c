@@ -21,9 +21,9 @@ main(){
 
 	int x, j, product, palindrome = 0;
 
-	for(x = 999; x >= 111; x--){
+	for(x = 999; x >= 101; x--){
 
-		for(j = 999; j >= 111; j--)
+		for(j = 999; j >= 101; j--)
 		{
 			product = x * j;
 			if(isPalindrome(product) && (product > palindrome)){
